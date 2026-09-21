@@ -49,6 +49,7 @@ df.loc[df['Age'] == 'Presbyopic', 'Lenses'] = 'Multifocal'
 ## 🛠️ Repository Structure
 
 ```text
+├── Dataset.csv             # Dataset to train the model
 ├── lenses_Prediction.ipynb # Jupyter Notebook containing data modernization, EDA, and Decision Tree training
 ├── Model.pkl               # Serialized Decision Tree Classifier model file
 └── Dashboard.py            # Streamlit application script providing the interactive UI dashboard
